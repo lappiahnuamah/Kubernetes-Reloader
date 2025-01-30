@@ -86,7 +86,14 @@ kubectl get pods -l app=reloader
 ```
 
 If everything is working, you should see the Reloader pods in the output.
-
+!(pods)[1.png]
+---
+And you can also verify if it's been installed and working when you have cheked the logs of the reloader as well. You should see the following screenshots. 
+!(pods)[2.png]
+---
+!(pods)[3.png]
+---
+!(pods)[4.png]
 ---
 
 ## Configuration
@@ -193,5 +200,3 @@ For more information, you can always visit the official [Kubernetes Reloader Git
 
 ---
 ```
-
-You can now save this content in a `.md` file and use it as your documentation for Kubernetes Reloader! Let me know if you need anything else.
